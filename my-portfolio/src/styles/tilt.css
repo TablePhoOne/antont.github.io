@@ -1,0 +1,14 @@
+.tilt-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(160, 95, 255, 0.4);
+  padding: 25px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(140, 70, 255, 0.4);
+  transition: box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+.tilt-card:hover {
+  box-shadow: 0 0 35px rgba(175, 120, 255, 0.7);
+}

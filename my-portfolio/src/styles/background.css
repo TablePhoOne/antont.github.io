@@ -1,0 +1,27 @@
+.bg-wrapper {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.blob {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  filter: blur(150px);
+  opacity: 0.55;
+  border-radius: 50%;
+}
+
+.purple-blob {
+  background: #65399a;
+  top: -150px;
+  right: -100px;
+}
+
+.blue-blob {
+  background: #314ea3;
+  bottom: -150px;
+  left: -100px;
+}
